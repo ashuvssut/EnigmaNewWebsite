@@ -5,14 +5,14 @@
 ## Change Log
 
 1. Positioned Enigma-logo-particles as a responsive background.
-2. Fixed Issue1. Resolution: brought that background image in-front of those hover-blocking divs and decreased the opacity to make it look like a background
+2. Fixed Issue1. Resolution: brought that background image in-front of those hover-blocking div and decreased the opacity to make it look like a background
 3. Fixed Issue2. Resolution: decreased the particle-slider height and positioned to center.
 
 ## Issues Log
 
-- Issue1: Particles are not responding to hover: being behind of other divs/containers.
+- Issue1: Particles are not responding to hover: being behind of other div/containers.
 - Issue2: Anchor Tags in class intro-options not responding to hover: being behind of the slider particles.
-- Issue3: Particle-slider disappears when clicked on Hamburger button.**<BUG>** **<PENDING>**
+- Issue3: Particle-slider disappears when clicked on Hamburger button.**<>BUG<>>** **<>PENDING<>>**
 
 ## Work to be done (EASY FIXING) :hammer_and_wrench
 
@@ -27,8 +27,11 @@
 
 - **PAGE_4** :
   - Basic Structure will remain as it is and it will contain contact us details.
-  - Although the map is not of VSSUT ...but the style looks cool. A cooler **photoshopped image** (of VSSUT, Burla Map) is most welcome.  
+  - Although the map is not of VSSUT ...but the style looks cool. A cooler **photo-shopped image** (of VSSUT, Burla Map) is most welcome.  
 - **PAGE_5** : In this page we will try to add some original documentations, medium articles or open source projects built by our club.
+
+- **Website Load Time Improvements needed** :
+  - minify all types of .js and .css files to .min.js and .min.css (also update links in index.html to these minified versions of files)
 
 ### If you want to contribute to this project, fork :fork_and_knife: this project and pull up a request to merge your changes
 
