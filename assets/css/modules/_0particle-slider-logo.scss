@@ -1,0 +1,15 @@
+/*CSS added for styling the Enigma particle-slider logo <committed by @ashuvssut>*/
+.particle-container{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#particle-slider{
+    position: absolute;
+    top:23%;
+    z-index:10;
+    opacity:0.5;
+    height:400px;
+    width: 500px;
+}
