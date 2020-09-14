@@ -9,6 +9,29 @@
   <meta name="keywords" content="global, template, html, sass, jquery">
   <meta name="author" content="Bucky Maler">
   <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+    .background{
+      position: absolute;
+      bottom: 25vh;
+      width: 100%;
+    }
+    .particle-container {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+    }
+
+    #particle-slider {
+      z-index: 10;
+      opacity: 0.5;
+      /* height: 100%; */
+      min-width: 340px;
+      width: 90vw;
+      max-width: 500px;
+    }
+  </style>
+
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>-->
 </head>
 <body>
@@ -90,7 +113,7 @@
                 </a>
               </div>
             </div>
-            <div id="particle-slider", class="update1">
+            <div id="particle-slider" class="update1">
               <div class="slides">
                 <div id="first-slide" class="slide" data-src="./assets/img/final.png" alt="Welcome"></div>
                </div> 
